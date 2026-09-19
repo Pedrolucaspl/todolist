@@ -2,7 +2,7 @@
 FROM ubuntu:latest AS build
 
 RUN apt-get update && apt-get install -y \
-    openjdk-27-jdk \
+    openjdk-26-jdk \
     maven
 
 WORKDIR /app
